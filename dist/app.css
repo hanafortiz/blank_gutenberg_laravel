@@ -1,0 +1,16 @@
+.has-small-font-size {
+  font-size: 20px;
+}
+
+.has-medium-font-size {
+  font-size: 30px;
+}
+
+.has-large-font-size {
+  font-size: 40px;
+}
+
+.site {
+  max-width: 1220px;
+  margin: 0 auto;
+}

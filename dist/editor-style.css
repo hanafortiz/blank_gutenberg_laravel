@@ -1,0 +1,44 @@
+.has-small-font-size {
+  font-size: 20px;
+}
+
+.has-medium-font-size {
+  font-size: 30px;
+}
+
+.has-large-font-size {
+  font-size: 40px;
+}
+
+/* Post title width */
+.editor-post-title__block.wp-block {
+  max-width: 1220px;
+  /* Post title styling */
+}
+/* Main column width */
+.wp-block {
+  max-width: 1220px;
+  /* Wide column width */
+}
+.wp-block[data-align=wide], .wp-block[data-align=full] {
+  max-width: none;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.wp-block-image {
+  line-height: 0;
+}
+
+.wp-block-button.is-style-full,
+.wp-block-button.is-style-full .block-editor-rich-text,
+div[data-type="core/button"] div[data-block] {
+  display: block;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  max-width: 100%;
+}
